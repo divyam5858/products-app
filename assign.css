@@ -1,0 +1,66 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 100vh;
+    justify-content: center;
+    padding: 20px;
+
+    .card {
+        border: 1px solid;
+        border-radius: 15px;
+        color: white;
+        background-color: rgb(187, 123, 145);
+        padding: 20px;
+        width: 300px;
+        text-align: left;
+
+        h1 {
+            font-size: 14px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h2 {
+            font-size: 16px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h3 {
+            font-size: 16px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h4 {
+            font-size: 16px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h5 {
+            font-size: 16px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        i {
+            color: white;
+            position: absolute;
+            margin-left: 250px;
+            margin-top: 0px;
+        }
+
+        i:hover {
+            cursor: pointer;
+            color: grey;
+        }
+    }
+
+    .span1 {
+
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
